@@ -108,6 +108,41 @@ javascript:(function () {
         color: #c6cfd8 !important;
     }
 
+    .swagger-ui .opblock-title span {
+      color: #f0f6fc !important;
+      font-weight: 600;
+    }
+
+    .swagger-ui .btn.try-out__btn {
+      background: #21262d !important;
+      color: #f0f6fc !important;
+      border: 1px solid #30363d !important;
+    }
+
+    .swagger-ui .btn.try-out__btn:hover {
+      background: #30363d !important;
+    }
+
+    .swagger-ui .opblock-section-header {
+      background: #161b22 !important;
+      border-bottom: 1px solid #30363d !important;
+    }
+
+    .swagger-ui .renderedMarkdown,
+    .swagger-ui .renderedMarkdown p,
+    .swagger-ui .renderedMarkdown li {
+      color: #f0f6fc !important;
+    }
+
+    .swagger-ui .tab li button {
+      color: #c9d1d9 !important;
+    }
+
+    .swagger-ui .tab li.active button {
+      color: #ffffff !important;
+      border-bottom: 2px solid #58a6ff;
+    }
+
   `;
 
   document.head.appendChild(style);
